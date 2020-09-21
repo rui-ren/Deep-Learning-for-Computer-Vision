@@ -12,20 +12,24 @@
   
 * Download Visual Studio Community
   Link : https://visualstudio.microsoft.com/downloads/
-  ![img](./vs.JPG)
+  ![img](img/vs.JPG)
 
 * Download Nvidia Driver
   Link : https://www.nvidia.com/Download/index.aspx
-![img](./nv.JPG)
+![img](img/nv.JPG)
 
 Input `nvidia-smi` in cmd to test the file. It will show :
-![img](./smi.JPG)
+
+![img](img/smi.JPG)
 
 * Download CUDA 
   The Latest version is CUDA 10.2.
-![img](./CUDA.JPG)
+
+![img](img/CUDA.JPG)
+
 * Download cuDNN
-* ![img](./cuDNN.JPG)
+* 
+* ![img](img/cuDNN.JPG)
 
 * After the installation, it requires environment setup.
   
@@ -35,19 +39,24 @@ Link : https://porter.io/github.com/AlexeyAB/darknet
 ### 3. Compile the Darknet model in Visual Studio
 Make sure change the CUDA 10.0 to CUDA 10.2 in darknet.vcxproj file
 `run darknet.exe detector test cfg\coco.data cfg\yolov4.cfg yolov4.weights` file to test the model
-![img](./horse.JPG)
+
+![img](img/horse.JPG)
 
 The vide testing file for YoloV4
-![img](./2.gif)
+
+![img](img/2.gif)
 
 ### 4. Dataset for pretrain model
 LISA : UCSD dataset, 47 classifications, `640 x 522 Pixels`.
 * Pedestrain Sign
-  ![img](./t3.JPG)
+* 
+  ![img](img/t3.JPG)
 * Speed Limit Sign
-  ![img](./t4.JPG)
+* 
+  ![img](img/t4.JPG)
 * Stop Sign
-  ![img](./t5.JPG)
+* 
+  ![img](img/t5.JPG)
 
 
 ### 4. Model improvements
